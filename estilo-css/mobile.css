@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 450px) {
+    body{
+        overflow: hidden;
+    }
+    
+    header{
+        display: flex;
+        justify-content: flex-end;
+        overflow: hidden;
+    }
+
+    .barra{
+        visibility: visible;
+        width: 60px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .nav{
+        position: absolute;
+        background-color: gray;
+        height: 30em;
+        top: 3em;
+        right: -200px;
+    }
+
+    .nav_list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 7em;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+    .nav__link{
+        display: flex;
+        width: 150px;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav__list_item{
+        height: 5em;
+        display: flex;
+        align-items: center;
+        transition: 1s;
+        padding-left: 10px;
+    }
+
+    .nav__list_item:hover{
+        background-color: rgba(127, 255, 212, 0.529);
+    }
+
+    .fas{
+        visibility: visible;
+        margin: 0 10px 0 0;
+    }
+
+    li > a:hover {
+        animation: none;
+    }
+
+    .apresentacao_barraDireita{
+        width: 0%;
+    }
+
+    .apresentacao_conteudo{
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .apresentacao_barraEsquerda{
+        width: 0%;
+    }
+}

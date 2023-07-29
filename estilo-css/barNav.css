@@ -1,0 +1,54 @@
+:root{
+    --vermelho: red;
+    --azul: blue;
+    --branco: white;
+    
+}
+
+/*nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color:  white;
+    margin: 30px 10px 0 10px;
+    overflow: hidden;
+    padding: 0.5em 0.5em;
+    width: 1.5em;
+    height: 0.5em;
+}
+
+li > a:hover{
+    animation: bot 5s infinite;
+}
+
+@keyframes bot{
+    0%{
+        box-shadow: 1px 5px 0px -8px var(--branco), 2px 7px 0px -8px var(--vermelho), -1px -5px 0px -8px var(--branco),-3px -7px 0px -8px var(--azul);
+    }
+    15%{
+        box-shadow: 12px 5px 0px -8px var(--branco), 15px 7px 0px -8px var(--vermelho), -12px -5px 0px -8px var(--branco), -15px -7px 0px -8px var(--azul);
+    }
+    30%{
+        box-shadow: 12px 12px 0px -8px var(--branco), 15px 14px 0px -8px var(--vermelho), -12px -12px 0px -8px var(--branco), -15px -14px 0px -8px var(--azul);
+    }
+    45%{
+        box-shadow: 12px 12px 0px -8px var(--branco), 15px 14px 0px -8px var(--vermelho), -12px -12px 0px -8px var(--branco), -15px -14px 0px -8px var(--azul);
+    }
+    60%{
+        box-shadow: -12px 12px 0px -8px var(--branco), -15px 14px 0px -8px var(--vermelho), 12px -12px 0px -8px var(--branco), 15px -14px 0px -8px var(--azul);
+    }
+    75%{
+        box-shadow: -12px 5px 0px -8px var(--branco), -15px 7px 0px -8px var(--vermelho), 12px -5px 0px -8px var(--branco), 15px -7px 0px -8px var(--azul);
+    }
+    90% {
+        box-shadow: -1px 5px 0px -8px var(--branco), -2px 7px 0px -8px var(--vermelho), 1px -5px 0px -8px var(--branco), 4px -8px 0px -8px var(--azul);
+    }
+}*/
+
+
